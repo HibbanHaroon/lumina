@@ -1,3 +1,4 @@
 pytube
 assemblyai
 clarifai
+streamlit
