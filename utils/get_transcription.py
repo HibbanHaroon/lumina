@@ -4,7 +4,7 @@ import streamlit as st
 
 # Audio to Text
 def get_transcription():
-    AAI_API_KEY = st.secrets["AAI_API_KEY"]
+    aai.settings.api_key = st.secrets["AAI_API_KEY"]
 
     # URL of the file to transcribe
     FILE_URL = "audio.mp3"
