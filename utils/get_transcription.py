@@ -1,9 +1,10 @@
 # Imports
 import assemblyai as aai
+import streamlit as st
 
 # Audio to Text
 def get_transcription():
-    aai.settings.api_key = f"50905bbd768d489eb14b8ac6b0f45d36"
+    AAI_API_KEY = st.secrets["AAI_API_KEY"]
 
     # URL of the file to transcribe
     FILE_URL = "audio.mp3"

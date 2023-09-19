@@ -19,11 +19,11 @@ def get_quiz_array(text):
     prompt = original_string.replace("{text}", text)
 
     # Your PAT (Personal Access Token) can be found in the portal under Authentification
-    PAT = '584b27700a0e462db5fa79e7b141bd07'
-    USER_ID = 'openai'
-    APP_ID = 'chat-completion'
-    MODEL_ID = 'GPT-4'
-    MODEL_VERSION_ID = 'ad16eda6ac054796bf9f348ab6733c72'
+    PAT = st.secrets["PAT"]
+    USER_ID = st.secrets["MC_USER_ID"]
+    APP_ID = st.secrets["MC_APP_ID"]
+    MODEL_ID = st.secrets["MC_MODEL_ID"]
+    MODEL_VERSION_ID = st.secrets["MC_MODEL_VERSION_ID"]
     RAW_TEXT = prompt
 
     channel = ClarifaiChannel.get_grpc_channel()
