@@ -1,3 +1,4 @@
 env/
 audio.mp3
 .streamlit/secrets.toml
+quiz.pdf
