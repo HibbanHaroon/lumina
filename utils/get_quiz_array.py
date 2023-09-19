@@ -21,10 +21,10 @@ def get_quiz_array(text):
 
     # Your PAT (Personal Access Token) can be found in the portal under Authentification
     PAT = st.secrets["PAT"]
-    USER_ID = st.secrets["MC_USER_ID"]
-    APP_ID = st.secrets["MC_APP_ID"]
-    MODEL_ID = st.secrets["MC_MODEL_ID"]
-    MODEL_VERSION_ID = st.secrets["MC_MODEL_VERSION_ID"]
+    USER_ID = st.secrets["USER_ID"]
+    APP_ID = st.secrets["APP_ID"]
+    MODEL_ID = st.secrets["MODEL_ID"]
+    MODEL_VERSION_ID = st.secrets["MODEL_VERSION_ID"]
     RAW_TEXT = prompt
 
     channel = ClarifaiChannel.get_grpc_channel()
