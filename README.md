@@ -1,5 +1,5 @@
 # Lumina 🎓
-Lumina project is an AI powered Educational Quiz Generator developed by team **f** for the **Streamlit LLM Hackathon**.  Lumina turns your educational video lectures into engaging MCQ based quizzes and provides automatic assessment. Learning has never been this fun!
+Lumina project is an AI powered Educational Quiz Generator developed by team **fruitydibs** for the **Streamlit LLM Hackathon**.  Lumina turns your educational video lectures into engaging MCQ based quizzes and provides automatic assessment. Learning has never been this fun!
 
 Lumina utilizes the transcription feature of **AssemblyAI** and transcribes a video such as a video lecture from youtube and then gives the transcribed text to GPT-4 Model from **Clarifai** which generates a quiz for the user to take and assess their knowledge in an easy and user-friendly manner.
 
